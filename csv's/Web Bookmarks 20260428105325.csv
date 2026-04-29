@@ -1,0 +1,97 @@
+"Source Name",URL,Title,"Date Created","Program Name","Data Source",Domain
+places.sqlite,"place:queryType=0&sort=8&maxResults=10","Most Visited","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"place:folder=BOOKMARKS_MENU&folder=UNFILED_BOOKMARKS&folder=TOOLBAR&queryType=1&sort=12&excludeItemIfParentHasAnnotation=livemark%2FfeedURI&maxResults=10&excludeQueries=1","Recently Bookmarked","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"place:type=6&sort=14&maxResults=10","Recent Tags","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"https://addons.mozilla.org/en-US/firefox/bookmarks/","Get Bookmark Add-ons","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.org
+places.sqlite,"http://www.mozilla.com/en-US/firefox/central/","Getting Started","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.com
+places.sqlite,"http://www.mozilla.com/en-US/firefox/help/","Help and Tutorials","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.com
+places.sqlite,"http://www.mozilla.com/en-US/firefox/customize/","Customize Firefox","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.com
+places.sqlite,"http://www.mozilla.com/en-US/firefox/community/","Get Involved","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.com
+places.sqlite,"http://www.mozilla.com/en-US/firefox/about/","About Us","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,mozilla.com
+places.sqlite,"https://ieonline.microsoft.com/#ieslice","ieonline.microsoft.com-#ieslice","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"https://ieonline.microsoft.com/#ieslice","Suggested Sites","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?LinkId=121315","Web Slice Gallery","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?LinkId=50893","IE Add-on site","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?linkid=44661","IE site on Microsoft.com","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?linkid=55424","Microsoft At Home","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?linkid=68920","Microsoft At Work","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,"http://go.microsoft.com/fwlink/?linkid=140813","Microsoft Store","2009-11-13 03:52:41 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,http://www.google.com/,Google,"2009-11-16 20:54:39 EET","FireFox Analyzer",jo-2009-11-16.E01,google.com
+places.sqlite,"http://en.wikipedia.org/wiki/Main_Page","Wikipedia, the free encyclopedia","2009-11-16 20:55:20 EET","FireFox Analyzer",jo-2009-11-16.E01,wikipedia.org
+places.sqlite,"place:type=3&sort=4",History,"2009-11-16 20:56:06 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"place:type=6&sort=1",Tags,"2009-11-16 20:56:06 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,place:folder=TOOLBAR,,"2009-11-16 20:56:06 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"place:folder=BOOKMARKS_MENU",,"2009-11-16 20:56:06 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"place:folder=UNFILED_BOOKMARKS",,"2009-11-16 20:56:06 EET","FireFox Analyzer",jo-2009-11-16.E01,
+places.sqlite,"http://www.dell.com/content/topics/reftopic.aspx/bsd/odg/13263_search_generic_hsb?c=us&cs=&l=en&s=gen&ST=dell&dgc=ST&cid=16010&lid=380485&acd=52191,8,0,61500887,705832422,1258397715,dell,10399471,3043822405","Shop Dell PCs, Computers, Laptops, Servers and More | Dell","2009-11-16 20:56:32 EET","FireFox Analyzer",jo-2009-11-16.E01,dell.com
+places.sqlite,"http://www.microsoft.com/en/us/default.aspx","Microsoft Corporation","2009-11-16 20:56:54 EET","FireFox Analyzer",jo-2009-11-16.E01,microsoft.com
+places.sqlite,http://www.cnn.com/,"CNN.com - Breaking News, U.S., World, Weather, Entertainment & Video News","2009-11-16 20:57:11 EET","FireFox Analyzer",jo-2009-11-16.E01,cnn.com
+places.sqlite,"http://www.cnn.com/SHOWBIZ/","Entertainment News - Movie, TV, Music and Book - Reviews and Gossip - CNN.com","2009-11-16 20:58:03 EET","FireFox Analyzer",jo-2009-11-16.E01,cnn.com
+places.sqlite,http://www.cnn.com/US/,"U.S. News - Headlines, Stories and Video from CNN.com","2009-11-16 20:58:13 EET","FireFox Analyzer",jo-2009-11-16.E01,cnn.com
+places.sqlite,http://www.cnn.com/TECH/,"Science and Technology News - Computers, Internet, Invention and Innovation Tech from CNN.com","2009-11-16 21:01:29 EET","FireFox Analyzer",jo-2009-11-16.E01,cnn.com
+places.sqlite,"http://www.cnn.com/video/","Video - Breaking News Videos from CNN.com","2009-11-16 21:01:43 EET","FireFox Analyzer",jo-2009-11-16.E01,cnn.com
+places.sqlite,"http://www.openoffice.org/","OpenOffice.org - The Free and Open Productivity Suite","2009-11-16 21:02:19 EET","FireFox Analyzer",jo-2009-11-16.E01,openoffice.org
+places.sqlite,http://www.uspto.gov/,"United States Patent and Trademark Office","2009-11-16 21:03:45 EET","FireFox Analyzer",jo-2009-11-16.E01,uspto.gov
+places.sqlite,"http://www.toysrus.com/shop/index.jsp?categoryId=2255956","Toysrus.com Home - The Official Toys""R""Us Site - Toys, Games, & More","2009-11-16 21:04:28 EET","FireFox Analyzer",jo-2009-11-16.E01,toysrus.com
+places.sqlite,"http://www.leapfrog.com/en/shop.html","Educational Toys, Learning Games & Gifts for Kids by LeapFrog","2009-11-16 21:04:46 EET","FireFox Analyzer",jo-2009-11-16.E01,leapfrog.com
+places.sqlite,http://www.sfgate.com/,"San Francisco Bay Area — News, Sports, Business, Entertainment, Classifieds: SFGate","2009-11-16 21:05:13 EET","FireFox Analyzer",jo-2009-11-16.E01,sfgate.com
+places.sqlite,"http://www.sfgate.com/sports/","SFGate Sports News — San Francisco Bay Area Game Schedules, Scores, Sports Columns, Team Stats & News","2009-11-16 21:05:25 EET","FireFox Analyzer",jo-2009-11-16.E01,sfgate.com
+places.sqlite,"http://www.sfgate.com/sports/49ers/","San Francisco 49ers — Sports News at SFGate — NFL Football","2009-11-16 21:05:38 EET","FireFox Analyzer",jo-2009-11-16.E01,sfgate.com
+places.sqlite,"http://www.sfgate.com/sports/giants/","San Francisco Giants — Sports News at SFGate for MLB Baseball Team the Giants","2009-11-16 21:05:47 EET","FireFox Analyzer",jo-2009-11-16.E01,sfgate.com
+places.sqlite,"http://www.carmax.com/enUS/search-results/default.html?ANa=4294966921&Ep=homepage%3ahomepage+Type&AZ=93940&ADc=90","Search results at carmax.com - Vans","2009-11-16 23:06:52 EET","FireFox Analyzer",jo-2009-11-16.E01,carmax.com
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/8362865.stm","UN presses Iran on nuclear site","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/8361634.stm","UK plans Afghan handover talks","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/science/nature/8363474.stm","US shuttle takes worms into space","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/business/8362291.stm","GM to start loan repayments early","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/europe/8363055.stm","Historic flight leaves Chechnya","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/technology/8362825.stm","China joins supercomputer elite","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/asia-pacific/8363494.stm","Summit talks for Obama in Beijing","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/africa/8362853.stm","Zambia 'porn' reporter acquitted","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/8362367.stm","Actor Edward Woodward dies at 79","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/europe/8362890.stm","French security van 'driver-turned-thief' comes clean","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/health/8361863.stm","Some plastics chemicals 'feminise boys'","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/sport2/hi/football/internationals/8361602.stm","Burley sacked as Scotland manager","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/sport2/hi/motorsport/formula_one/8362295.stm","Mercedes takes over Brawn F1 team","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://newsforums.bbc.co.uk/nol/thread.jspa?forumID=7236&edition=2","Is it right to apologise for the past?","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://www.bbcworldnews.com/Pages/default.aspx","BBC World News","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbcworldnews.com
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/8362200.stm","Officer 'abused Iraqi prisoners'","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/8363252.stm","UK soldier killed in Afghanistan","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/england/norfolk/8363403.stm","Tory woman wins selection battle","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/england/wiltshire/8363502.stm","Schoolgirls hurt in tractor crash","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/england/beds/bucks/herts/8363514.stm","Voters' details on stolen laptop","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/8363563.stm","10% tax on bank profits proposed","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/in_depth/8359477.stm","Roll call","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/in_pictures/8362444.stm","Day in pictures","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/americas/8362459.stm","Deadly streets","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/in_pictures/8362189.stm","In pictures","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/europe/8358504.stm","Poet president?","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/8280061.stm","Feminist icon?","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/africa/8363342.stm","Rwanda genocide ruling overturned","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/business/8363322.stm","Fed 'attentive' to US dollar drop","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/asia-pacific/8362903.stm","Bid to separate conjoined twins","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/europe/8361972.stm","Monitors positive on Kosovo vote","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/middle_east/8362278.stm","Gunmen kill 12 in Iraqi village","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/south_asia/8361721.stm","Four dead in Peshawar explosion","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/business/8363518.stm","UK stocks surge in global rally","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/health/8359170.stm","Hypnosis has 'real' brain effect","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/entertainment/8361869.stm","Honorary Oscar for actress Bacall","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/science/nature/8362168.stm","Tuna body shies from fishing ban","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+places.sqlite,"http://news.bbc.co.uk/go/rss/-/2/hi/technology/8362195.stm","Net gets set for language changes","2009-11-17 02:04:15 EET","FireFox Analyzer",jo-2009-11-16.E01,bbc.co.uk
+"Suggested Sites.url","https://ieonline.microsoft.com/#ieslice","Suggested Sites.url","2009-11-13 03:46:39 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Free Hotmail.url","http://www.microsoft.com/isapi/redir.dll?prd=ie&ar=hotmail","Free Hotmail.url","2009-11-09 02:41:44 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+MSN.com.url,"http://www.microsoft.com/isapi/redir.dll?prd=ie&pver=6&ar=IStart",MSN.com.url,"2009-11-09 02:41:44 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"IE Add-on site.url","http://go.microsoft.com/fwlink/?LinkId=50893","IE Add-on site.url","2009-11-10 02:40:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"IE site on Microsoft.com.url","http://go.microsoft.com/fwlink/?linkid=44661","IE site on Microsoft.com.url","2009-11-10 02:40:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft At Home.url","http://go.microsoft.com/fwlink/?linkid=55424","Microsoft At Home.url","2009-11-10 02:40:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft At Work.url","http://go.microsoft.com/fwlink/?linkid=68920","Microsoft At Work.url","2009-11-10 02:40:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"IE Add-on site.url","http://go.microsoft.com/fwlink/?LinkId=50893","IE Add-on site.url","2009-11-11 02:12:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"IE site on Microsoft.com.url","http://go.microsoft.com/fwlink/?linkid=44661","IE site on Microsoft.com.url","2009-11-11 02:12:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft At Home.url","http://go.microsoft.com/fwlink/?linkid=55424","Microsoft At Home.url","2009-11-11 02:12:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft At Work.url","http://go.microsoft.com/fwlink/?linkid=68920","Microsoft At Work.url","2009-11-11 02:12:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft Store.url","http://go.microsoft.com/fwlink/?linkid=140813","Microsoft Store.url","2009-11-10 02:40:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Microsoft Store.url","http://go.microsoft.com/fwlink/?linkid=140813","Microsoft Store.url","2009-11-11 02:12:57 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Radio Station Guide.url","http://www.microsoft.com/isapi/redir.dll?prd=windows&sbp=mediaplayer&plcid=&pver=6.1&os=&over=&olcid=&clcid=&ar=Media&sba=RadioBar&o1=&o2=&o3=","Radio Station Guide.url","2009-11-09 02:41:44 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Web Slice Gallery.url","http://go.microsoft.com/fwlink/?LinkId=121315","Web Slice Gallery.url","2009-11-10 02:41:00 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Web Slice Gallery.url","http://go.microsoft.com/fwlink/?LinkId=121315","Web Slice Gallery.url","2009-11-11 02:12:58 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"Suggested Sites.url","https://ieonline.microsoft.com/#ieslice","Suggested Sites.url","2009-11-10 02:45:01 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com
+"ieonline.microsoft.com-#ieslice.url","https://ieonline.microsoft.com/#ieslice","ieonline.microsoft.com-#ieslice.url","2009-11-13 03:46:39 EET","Internet Explorer Analyzer",jo-2009-11-16.E01,microsoft.com

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DFIR-2024-012 | Forensic Investigation Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    
+    <div class="container">
+        <header>
+            <div class="logo-area">
+                <h1>FORENSIC PORTAL</h1>
+                <span>Case ID: DFIR-2024-012 | v2.0 Final Edition</span>
+            </div>
+            <div class="verdict-badge">
+                <i class="fas fa-exclamation-triangle"></i> HIGHLY PROBABLE EXFILTRATION
+            </div>
+        </header>
+
+        <nav>
+            <a href="#summary" class="nav-link active">Summary</a>
+            <a href="#matrix" class="nav-link">Evidence Matrix</a>
+            <a href="#timeline" class="nav-link">Timeline</a>
+            <a href="#mitre" class="nav-link">MITRE Mapping</a>
+        </nav>
+
+        <section id="summary">
+            <div class="dashboard-grid">
+                <div class="card card-large">
+                    <div class="card-title"><i class="fas fa-file-alt"></i> Executive Summary</div>
+                    <p style="margin-bottom: 1rem;">This forensic investigation targets the <strong>jo-2009-11-16.E01</strong> image. Analysis confirms a high-probability insider threat involving employee <strong>Jo</strong> of M57.biz.</p>
+                    <div style="background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 0.8rem; border-left: 4px solid var(--danger);">
+                        <strong style="color: var(--danger);">CRITICAL FINDING:</strong> ZIPPER.EXE (file compression tool) was identified in unallocated Prefetch space, indicating it was executed and then deleted—a hallmark of deliberate counter-forensic cleanup.
+                    </div>
+                </div>
+
+                <div class="card card-small">
+                    <div class="card-title"><i class="fas fa-microchip"></i> System Info</div>
+                    <ul style="list-style: none; font-size: 0.9rem;">
+                        <li style="margin-bottom: 0.5rem;"><span style="color: var(--text-dim);">OS:</span> Windows XP SP3 (x86)</li>
+                        <li style="margin-bottom: 0.5rem;"><span style="color: var(--text-dim);">Hostname:</span> M57-JO</li>
+                        <li style="margin-bottom: 0.5rem;"><span style="color: var(--text-dim);">MD5:</span> f3160...7459 <i class="fas fa-check-circle" style="color: var(--success);"></i></li>
+                        <li style="margin-bottom: 0.5rem;"><span style="color: var(--text-dim);">Artifacts:</span> 5,400+ parsed</li>
+                    </ul>
+                </div>
+
+                <div class="card card-full" id="matrix">
+                    <div class="card-title"><i class="fas fa-database"></i> Evidence Discovery Matrix</div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Finding</th>
+                                <th>Severity</th>
+                                <th>Source</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ZIPPER.EXE in unallocated Prefetch</td>
+                                <td><span class="status status-high">CRITICAL</span></td>
+                                <td>Prefetch_20260429.csv</td>
+                                <td>CONFIRMED</td>
+                            </tr>
+                            <tr>
+                                <td>LaCie Rugged HDD Connection (02:20:07)</td>
+                                <td><span class="status status-high">CRITICAL</span></td>
+                                <td>USBSTOR Registry</td>
+                                <td>CONFIRMED</td>
+                            </tr>
+                            <tr>
+                                <td>IMAPI CD-Burning (02:31:53–59)</td>
+                                <td><span class="status status-high">CRITICAL</span></td>
+                                <td>sys-event.xlsx</td>
+                                <td>CONFIRMED</td>
+                            </tr>
+                            <tr>
+                                <td>HELIX.EXE Execution (05:07:23)</td>
+                                <td><span class="status status-medium">HIGH</span></td>
+                                <td>Prefetch</td>
+                                <td>CONFIRMED</td>
+                            </tr>
+                            <tr>
+                                <td>webmail.m57.biz: Jo Login Failed (×5)</td>
+                                <td><span class="status status-medium">HIGH</span></td>
+                                <td>Form_Autofill</td>
+                                <td>CONFIRMED</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline">
+            <h2 style="margin-bottom: 2rem; font-size: 1.5rem; color: var(--primary);">Incident Reconstruction Timeline</h2>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Search events (e.g. 'USB', 'Helix')...">
+            </div>
+            
+            <div class="timeline-container" id="timelineList">
+                <div class="timeline-item">
+                    <div class="timeline-time">2009-11-13 05:07:08</div>
+                    <div class="timeline-content">
+                        <h4>IMAPI CD-Burning Start</h4>
+                        <p>CD burning service entered RUNNING state. Possible disc creation initiated.</p>
+                    </div>
+                </div>
+                <div class="timeline-item critical">
+                    <div class="timeline-time">2009-11-13 05:07:23</div>
+                    <div class="timeline-content">
+                        <h4>HELIX.EXE Execution</h4>
+                        <p>Forensic live-CD tool executed. Indicator of counter-forensic awareness by the subject.</p>
+                    </div>
+                </div>
+                <div class="timeline-item critical">
+                    <div class="timeline-time">2009-11-13 05:08:26</div>
+                    <div class="timeline-content">
+                        <h4>System Shutdown</h4>
+                        <p>EventLog service stopped 65 seconds after HELIX ran. Pattern suggests deliberate concealment.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">2009-11-16 20:48:23</div>
+                    <div class="timeline-content">
+                        <h4>Webmail Access</h4>
+                        <p>Jo logged into corporate webmail. Identity confirmed via form autofill metadata.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">2009-11-17 02:20:07</div>
+                    <div class="timeline-content">
+                        <h4>LaCie HDD Connection</h4>
+                        <p>External high-capacity storage connected to the workstation (S/N: 00D04B881007C255).</p>
+                    </div>
+                </div>
+                <div class="timeline-item critical">
+                    <div class="timeline-time">2009-11-17 02:31:53</div>
+                    <div class="timeline-content">
+                        <h4>IMAPI CD-Burning (Final)</h4>
+                        <p>Something burned to optical media just minutes before final system imaging.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mitre" style="margin-top: 4rem;">
+            <div class="card card-full">
+                <div class="card-title"><i class="fas fa-shield-virus"></i> MITRE ATT&CK Mapping</div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Technique</th>
+                            <th>Evidence</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>T1560</td>
+                            <td>Archive Collected Data</td>
+                            <td>ZIPPER.EXE (Deleted Prefetch)</td>
+                            <td><span class="status status-high">CONFIRMED</span></td>
+                        </tr>
+                        <tr>
+                            <td>T1052</td>
+                            <td>Exfiltration via Physical Medium</td>
+                            <td>IMAPI + LaCie HDD</td>
+                            <td><span class="status status-high">CONFIRMED</span></td>
+                        </tr>
+                        <tr>
+                            <td>T1070</td>
+                            <td>Indicator Removal</td>
+                            <td>HELIX.EXE + EventLog Stop</td>
+                            <td><span class="status status-high">CONFIRMED</span></td>
+                        </tr>
+                        <tr>
+                            <td>T1047</td>
+                            <td>WMI Execution</td>
+                            <td>WMIC.EXE (×5)</td>
+                            <td><span class="status status-medium">CONFIRMED</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer>
+            <p>AASTMT Cybersecurity - Youssef Moataz - April 2026</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
