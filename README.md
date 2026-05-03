@@ -26,7 +26,9 @@ You can view the interactive investigation dashboard here:
 - `/csv's`: Exported metadata and artifact logs from Autopsy.
 - `/ss`: Screenshot evidence gallery.
 - `java.js`: The forensic report generation script.
-- `DFIR_FINAL_v2.docx`: The official final investigation report.
+- `DFIR_FINAL_v2.docx`: The official final investigation report (Word).
+- `DFIR_FINAL_v2.pdf`: The official final investigation report (PDF).
+- `dfir_linkedin_portfolio_mockup.png`: Project showcase image.
 
 ## 📑 Key Findings
 1. **ZIPPER.EXE**: Evidence of file compression found in unallocated Prefetch space (now deleted).
